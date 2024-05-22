@@ -7,12 +7,12 @@ import { cn } from '@/lib/utils'
 import Phone from './Phone'
 
 const PHONES = [
-  '/testimonials/1.jpg',
-  '/testimonials/2.jpg',
-  '/testimonials/3.jpg',
-  '/testimonials/4.jpg',
-  '/testimonials/5.jpg',
-  '/testimonials/6.jpg',
+  '/farm/rau1.jpg',
+  '/farm/rau2.jpg',
+  '/farm/rau3.jpg',
+  '/farm/rau4.jpg',
+  '/farm/rau5.jpg',
+  '/farm/rau6.jpg',
 ]
 
 function splitArray<T>(array: Array<T>, numParts: number) {
