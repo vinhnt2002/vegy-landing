@@ -204,16 +204,15 @@ export default function Home() {
           <div className="mb-12 px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
               <h2 className="order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900">
-                Upload your photo and get{" "}
-                <span className="relative px-2 bg-green-600 text-white">
+                Về dự án của nhóm chúng tôi{" "}
+                {/* <span className="relative px-2 bg-green-600 text-white">
                   your own case
-                </span>{" "}
-                now
+                </span>{" "} */}
               </h2>
             </div>
           </div>
 
-          <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          {/* <div className="mx-auto max-w-6xl px-6 lg:px-8">
             <div className="relative flex flex-col items-center md:grid grid-cols-2 gap-40">
               <img
                 src="/arrow.png"
@@ -229,37 +228,48 @@ export default function Home() {
 
               <Phone className="w-60" imgSrc="farm/dat1.jpg" />
             </div>
+          </div> */}
+
+          <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
+            <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
+              <div className="flex gap-0.5 mb-2  tracking-tight  text-balance !leading-tight font-bold text-5xl md:text-3xl text-gray-900 underline">
+                Tầm nhìn
+              </div>
+              <div className="text-lg leading-8">
+                <p>
+                  Trở thành thị trường trực tuyến hàng đầu về rau hữu cơ, đặt ra
+                  tiêu chuẩn về chất lượng, tính minh bạch và tính bền vững
+                  trong ngành thương mại điện tử nông nghiệp.
+                </p>
+              </div>
+              {/* <div className="flex gap-4 mt-2">
+                <img
+                  className="rounded-full h-12 w-12 object-cover"
+                  src="/users/user-1.png"
+                  alt="user"
+                />
+                <div className="flex flex-col">
+                  <p className="font-semibold">Jonathan</p>
+                  <div className="flex gap-1.5 items-center text-zinc-600">
+                    <Check className="h-4 w-4 stroke-[3px] text-green-600" />
+                    <p className="text-sm">Verified Purchase</p>
+                  </div>
+                </div>
+              </div> */}
+            </div>
+            <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
+              <div className="flex gap-0.5 mb-2  tracking-tight  text-balance !leading-tight font-bold text-5xl md:text-3xl text-gray-900 underline">
+                Sứ mệnh
+              </div>
+              <div className="text-lg leading-8">
+                <p>
+                  Tạo ra nền tảng thương mại điện tử cho người tiêu dùng, đảm
+                  bảo khách hàng có thể tiếp cận với các nguồn sản phẩm hữu cơ
+                  sạch, chất lượng cao.
+                </p>
+              </div>
+            </div>
           </div>
-
-          <ul className="mx-auto mt-12 max-w-prose sm:text-lg space-y-2 w-fit">
-            <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
-              High-quality silicone material
-            </li>
-            <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
-              Scratch- and fingerprint resistant coating
-            </li>
-            <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
-              Wireless charging compatible
-            </li>
-            <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />5 year
-              print warranty
-            </li>
-
-            {/* <div className='flex justify-center'>
-              <Link
-                className={buttonVariants({
-                  size: 'lg',
-                  className: 'mx-auto mt-8',
-                })}
-                href='/configure/upload'>
-                Create your case now <ArrowRight className='h-4 w-4 ml-1.5' />
-              </Link>
-            </div> */}
-          </ul>
         </MaxWidthWrapper>
       </section>
     </div>
