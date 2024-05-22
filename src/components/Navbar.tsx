@@ -7,7 +7,10 @@ const Navbar = async () => {
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200">
           <Link href="/" className="flex z-40 font-semibold">
-            VE<span className="text-green-600">GY</span>
+            {/* VE<span className="text-green-600">GY</span> */}
+      <img src="Logo-Vegy.png" alt="Img-Logo"
+     className="absolute w-8 lg:w-14 left-56 -top-0 select-none hidden sm:block lg:hidden xl:block rounded-full "
+/>
           </Link>
 
           <div className="h-full flex items-center space-x-4">

@@ -17,10 +17,10 @@ const Phone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
       <img
         src={
           dark
-            ? '/phone-template-dark-edges.png'
-            : '/phone-template-white-edges.png'
+            ? '/apple-iphone-15-2023-medium.png'
+            : '/apple-iphone-15-2023-medium.png'
         }
-        className='pointer-events-none z-50 select-none'
+        className='pointer-events-none z-50 select-none '
         alt='phone image'
       />
 

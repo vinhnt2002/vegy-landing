@@ -14,7 +14,7 @@ export default function Home() {
               <div className="absolute w-28 left-0 -top-20 hidden lg:block">
                 {/* i forgot this div right here in the video, it's purely visual gradient and looks nice */}
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28" />
-                <img src="farm/veg-cartoon.jpg" className="w-full" />
+                <img src="farm/veg-cartoon.jpg" className="w-32 lg:w-64" />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
                 Ứng dụng{"  "}
@@ -50,27 +50,27 @@ export default function Home() {
                 <div className="flex -space-x-4">
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-1.png"
+                    src="/users/user-x1.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-2.png"
+                    src="/users/user-x2.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-3.png"
+                    src="/users/user-x3.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-4.jpg"
+                    src="/users/user-y.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block object-cover h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-5.jpg"
+                    src="/users/user-yy.jpg"
                     alt="user image"
                   />
                 </div>
@@ -85,7 +85,7 @@ export default function Home() {
                   </div>
 
                   <p>
-                    <span className="font-semibold">1.250</span> happy customers
+                    <span className="font-semibold">1.250 </span>  Rau sạch - Sống sạch 
                   </p>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function Home() {
           <div className="mb-12 px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
               <h2 className="order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900">
-                Về dự án của nhóm chúng tôi{" "}
+                Về dự án của chúng tôi{" "}
                 {/* <span className="relative px-2 bg-green-600 text-white">
                   your own case
                 </span>{" "} */}
