@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Recursive } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -7,7 +8,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Providers from "@/components/Providers";
 import { constructMetadata } from "@/lib/utils";
 
-const recursive = Recursive({ subsets: ["latin"] });
+const recursive = Roboto({ subsets: ["latin"], weight:"400" });
 
 export const metadata = constructMetadata();
 
