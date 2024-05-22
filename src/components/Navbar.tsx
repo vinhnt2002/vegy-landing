@@ -10,7 +10,9 @@ const Navbar = async () => {
             VE<span className="text-green-600">GY</span>
           </Link>
 
-          <div className="h-full flex items-center space-x-4">SDT vinh</div>
+          <div className="h-full flex items-center space-x-4">
+            Hotline: 01674027409
+          </div>
         </div>
       </MaxWidthWrapper>
     </nav>
